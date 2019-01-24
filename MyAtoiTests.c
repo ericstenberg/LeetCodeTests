@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
-int myAtoi(char* str) {
+int myAtoiTests(char* str) {
 
 	// Insert your code here.
 
@@ -17,10 +17,10 @@ int main (int argc, char *argv[]) {
 	int i = 0,j = 48;
 
 	for (i = 0; i < j; i++) {
-		if (testAnswers[i] == myAtoi(testCases[i])) {
+		if (testAnswers[i] == myAtoiTests(testCases[i])) {
 			printf("PASS. Input: '%s'.\n",testCases[i]);
 		} else {
-			printf("FAIL. Input: '%s'. Outcome: %d. Expected: %d\n",testCases[i],myAtoi(testCases[i]),testAnswers[i]);
+			printf("FAIL. Input: '%s'. Outcome: %d. Expected: %d\n",testCases[i],myAtoiTests(testCases[i]),testAnswers[i]);
 		}
 	}
 
