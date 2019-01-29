@@ -1,7 +1,7 @@
 CFLAGS=-Wall -g
 
 app:
-	make MyAtoiTests
+	make MyAtoiTests RemoveElementsTests
 
 clean:
-	rm -f MyAtoiTests
+	rm -f MyAtoiTests RemoveElementsTests
