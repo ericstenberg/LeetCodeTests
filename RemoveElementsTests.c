@@ -73,6 +73,8 @@ int main(int argc, char *argv[]) {
 	}
 
 	iterateNextNode(head);
+
+	free(head);
 	
 	return 0;
 }
